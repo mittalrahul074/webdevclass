@@ -1,0 +1,39 @@
+form{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+    display: table;
+    margin-left: 30%;
+    padding: 2.5% 7%;
+}
+p{display: table-row;}
+input{display: table-cell;}
+label{display: table-cell;
+text-align: right;}
+body{
+    background-color: #b57720;
+}
+#a{
+    background-color: #d8624d;
+    position: absolute;
+    top:2%;
+    left: 32%;
+    color: white;
+    width: 150px;
+}
+#b{
+    background-color: #d8624d;
+    position: absolute;
+    top:33.5%;
+    left: 32%;
+    color: white;
+    width: 120px;
+}
+button{
+    margin-left: 45%;
+    background-color: green;
+    width: 100px;
+}

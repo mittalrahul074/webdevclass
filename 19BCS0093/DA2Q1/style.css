@@ -1,0 +1,35 @@
+table,th,td{
+    border: 5px dotted red;
+    text-align: center;
+    word-wrap: break-word;
+}
+table{
+    border-collapse: collapse;
+}
+
+tr td:nth-child(3),
+tr td:nth-child(5){
+    background-color: blue;
+}
+
+tr td:nth-child(1){
+    background-color: pink;
+    text-align: left;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.blue{
+    background-color: blue;
+}
+
+td{
+    font-size: 20px;
+}
+
+th{
+    text-align: left;
+    width: 100px;
+}

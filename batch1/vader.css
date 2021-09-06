@@ -1,0 +1,22 @@
+#dialouge{
+    margin-left: 15%;
+    /* margin-right: 35%; */
+}
+
+.vader,.p-vader{
+    display: flex;
+    justify-content: right;
+}
+
+.p-vader{
+    margin-left: 35%;
+    text-align: right;
+}
+#body{
+    display: flex;
+}
+
+img{
+    width: 450px;
+    height: 450px;
+}

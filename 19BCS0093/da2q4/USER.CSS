@@ -1,0 +1,20 @@
+body{
+    background-color: skyblue;
+    text-align: center;
+}
+h1{
+    color: slateblue;
+}
+p{
+    text-decoration: underline;
+}
+form  { display: table;
+margin-left: 40%;
+margin-right: 45%;}
+div   { display: table-row;}
+label { display: table-cell; }
+input { display: table-cell; }
+
+span>*{
+    margin-left: 2%;
+}

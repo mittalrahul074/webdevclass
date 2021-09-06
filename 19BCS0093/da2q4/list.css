@@ -1,0 +1,9 @@
+body{
+    background-image: url(https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg);
+}
+
+ul{
+    color: rgb(17, 16, 16);
+    font-size: 20px;
+    text-decoration: underline;
+}
