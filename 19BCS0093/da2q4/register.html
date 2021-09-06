@@ -6,11 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="register.css">
+    <style>
+        form>p{
+            display: table-row;
+        }
+        form>p>label{
+            display: table-cell;
+        }
+        form>p>input{
+            display: table-cell;
+        }
+    </style>
 </head>
-<body>
-    <h1>*___*___REGISTRATION___*___*</h1>
+<body style="text-align: center;
+background-color: skyblue;">
+    <h1 style="color: slateblue;">*___*___REGISTRATION___*___*</h1>
     <hr>
-    <form action="">
+    <form action="" style="margin-left: 30%;
+    display: table;
+    left: 50%;">
         <p>
             <label for="">NAME:</label>
             <input type="text">
@@ -51,7 +65,7 @@
             <input type="password">
         </P>
     </form>
-    <div>
+    <div style="margin-left: 2%;">
         <a href="user.html">BACK</a>
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>

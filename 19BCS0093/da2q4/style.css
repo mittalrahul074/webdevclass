@@ -1,8 +1,0 @@
-h1{
-    position: absolute;
-    top: 55%;
-    left: 65%;
-    transform: translate(-55%, -65%);
-    font-style: italic;
-    color: rgb(236, 131, 183);
-}
